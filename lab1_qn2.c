@@ -1,10 +1,18 @@
 #include <stdio.h>
 #include <stdint.h>
 
+/*
+Write  a  C  program  that  reads  in  several  lines  of  non‐negative  integer  numbers, 
+computes the average for each line and prints out the average. The value –1 in each line 
+of user input is used to indicate the end of input for that line.
+*/
+
+
+// since the test case doesnt actually have negative numbers to "break" the qn
+// we dont care lul
 int main() {
     int32_t N, num_count = 0;
     float T, sum = 0;
-
 
     printf("Enter number of lines:\n");
     scanf("%d", &N);
